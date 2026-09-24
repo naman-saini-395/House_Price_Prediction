@@ -1,22 +1,49 @@
+Perfect bhai 🔥 **GitHub upload successfully verify ho gaya.**
+
+Tumhari repository mein clearly ye files aa rahi hain:
+
+* ✅ `app.py`
+* ✅ `data_analysis.py`
+* ✅ `prediction.py`
+* ✅ `house_price_model.pkl`
+* ✅ `house_price_regression_dataset.csv`
+* ✅ `templates/`
+* ✅ `requirements.txt`
+* ✅ `.gitignore`
+* ✅ Graphs
+* ✅ `README.md`
+
+Aur **1 commit on `main`** bhi dikh raha hai. Matlab Git + GitHub wala part complete. 🚀
+
+## Next Step — README ko professional banana
+
+Ab tumhare project ko **portfolio/resume-ready** banate hain.
+
+VS Code mein `README.md` open karo aur **poora existing content replace** karke ye paste karo:
+
+````markdown
 # 🏠 House Price Prediction
 
-A Machine Learning project that predicts house prices based on different property features.
+A Machine Learning web application that predicts house prices based on property features such as square footage, bedrooms, bathrooms, year built, lot size, garage size, and neighborhood quality.
 
 ## 📌 Project Overview
 
-This project uses a House Price Regression dataset to train a Linear Regression model.
+This project uses Machine Learning to estimate house prices from property-related features.
 
-The model takes the following features as input:
+The model is trained using a House Price Regression dataset and uses Linear Regression for prediction.
 
-- Square Footage
-- Number of Bedrooms
-- Number of Bathrooms
-- Year Built
-- Lot Size
-- Garage Size
-- Neighborhood Quality
+The trained model is integrated with a Flask web application where users can enter house details and get an estimated house price.
 
-It then predicts the estimated House Price.
+## 🚀 Features
+
+- House price prediction using Machine Learning
+- Linear Regression model
+- Data analysis and visualization
+- Correlation heatmap
+- Actual vs Predicted price visualization
+- Interactive Flask web application
+- User-friendly prediction form
+- Saved trained ML model using Joblib
 
 ## 🛠️ Technologies Used
 
@@ -28,111 +55,170 @@ It then predicts the estimated House Price.
 - Scikit-learn
 - Joblib
 - Flask
-- HTML
-- CSS
+- HTML/CSS
 
-## 📊 Dataset
+## 📊 Dataset Features
 
-The project uses the House Price Regression Dataset containing:
+The model uses the following features:
 
-- 1000 records
-- 8 columns
-- 7 input features
-- 1 target variable: `House_Price`
+| Feature | Description |
+|---|---|
+| Square_Footage | Size of the house |
+| Num_Bedrooms | Number of bedrooms |
+| Num_Bathrooms | Number of bathrooms |
+| Year_Built | Year the house was built |
+| Lot_Size | Size of the property lot |
+| Garage_Size | Garage size |
+| Neighborhood_Quality | Neighborhood quality score from 1–10 |
 
-## 🔄 Machine Learning Workflow
+### Target Variable
 
-```text
-Dataset
-   ↓
-Data Analysis
-   ↓
-Data Cleaning
-   ↓
-Exploratory Data Analysis
-   ↓
-Correlation Analysis
-   ↓
-Train-Test Split
-   ↓
-Linear Regression
-   ↓
-Model Evaluation
-   ↓
-Save Trained Model
-   ↓
-Flask Web Application
-   ↓
-House Price Prediction
-🤖 Machine Learning Model
+`House_Price`
 
-Linear Regression was used for house price prediction.
+## 🤖 Machine Learning Model
 
-Dataset Split
-Training data: 80%
-Testing data: 20%
-📈 Model Performance
+The project uses:
+
+**Linear Regression**
+
+Dataset split:
+
+- Training data: 80%
+- Testing data: 20%
+- Random state: 42
+
+## 📈 Model Performance
 
 The model was evaluated using:
 
-MAE
-MSE
-RMSE
-R² Score
+- MAE
+- MSE
+- RMSE
+- R² Score
 
-Results on the test set:
+### Results
 
-MAE: 8174.58
-RMSE: 10071.48
-R² Score: 0.99843
-🌐 Web Application
+- **MAE:** 8174.58
+- **RMSE:** 10071.48
+- **R² Score:** 0.9984
 
-A Flask-based web interface allows users to enter house details and receive an estimated house price.
+## 🌐 Flask Web Application
 
-Input Features
-Square Footage
-Number of Bedrooms
-Number of Bathrooms
-Year Built
-Lot Size
-Garage Size
-Neighborhood Quality
-▶️ How to Run
-1. Clone the repository
-git clone <your-github-repository-url>
-2. Open the project
-cd House_Price_Prediction
-3. Create and activate virtual environment
-python -m venv venv
+The Flask application allows users to enter:
 
-Windows:
+1. Square Footage
+2. Number of Bedrooms
+3. Number of Bathrooms
+4. Year Built
+5. Lot Size
+6. Garage Size
+7. Neighborhood Quality
 
-venv\Scripts\activate
-4. Install dependencies
-pip install -r requirements.txt
-5. Run Flask application
-python app.py
-6. Open in browser
-http://127.0.0.1:5000
-📁 Project Structure
+The application then displays the estimated house price.
+
+## 📁 Project Structure
+
+```text
 House_Price_Prediction/
-│
-├── app.py
-├── data_analysis.py
-├── prediction.py
-├── house_price_model.pkl
-├── house_price_regression_dataset.csv
-├── requirements.txt
-├── README.md
 │
 ├── templates/
 │   └── index.html
 │
-└── visualizations/
-⚠️ Note
+├── app.py
+├── prediction.py
+├── data_analysis.py
+├── house_price_model.pkl
+├── house_price_regression_dataset.csv
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+└── visualization files
+````
 
-The model performance reported above is based on the provided dataset and its test split. It should not be interpreted as guaranteed accuracy for real-world house prices.
+## ▶️ How to Run
 
-👨‍💻 Project
+### 1. Clone the repository
 
-House Price Prediction using Machine Learning and Flask.
+```bash
+git clone https://github.com/naman-saini-395/House_Price_Prediction.git
+```
+
+### 2. Open the project
+
+```bash
+cd House_Price_Prediction
+```
+
+### 3. Create virtual environment
+
+```bash
+python -m venv venv
+```
+
+### 4. Activate virtual environment
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+### 5. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Run Flask application
+
+```bash
+python app.py
+```
+
+### 7. Open in browser
+
+```text
+http://127.0.0.1:5000/
+```
+
+## 🎯 Future Improvements
+
+* Try Random Forest and Gradient Boosting models
+* Add more property features
+* Improve UI design
+* Deploy the application online
+* Add model comparison
+
+## 👨‍💻 Author
+
+**Naman Saini**
+
+GitHub:
+[https://github.com/naman-saini-395](https://github.com/naman-saini-395)
+
+````
+
+### Uske baad
+
+Save:
+
+**Ctrl + S**
+
+Phir terminal mein:
+
+```bash
+git add README.md
+````
+
+```bash
+git commit -m "Improve project README"
+```
+
+```bash
+git push
+```
+
+Phir GitHub refresh karna.
+
+**Iske baad tumhara project GitHub par kaafi proper portfolio-project format mein ho jayega.**
