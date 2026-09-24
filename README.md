@@ -1,27 +1,4 @@
-Perfect bhai 🔥 **GitHub upload successfully verify ho gaya.**
 
-Tumhari repository mein clearly ye files aa rahi hain:
-
-* ✅ `app.py`
-* ✅ `data_analysis.py`
-* ✅ `prediction.py`
-* ✅ `house_price_model.pkl`
-* ✅ `house_price_regression_dataset.csv`
-* ✅ `templates/`
-* ✅ `requirements.txt`
-* ✅ `.gitignore`
-* ✅ Graphs
-* ✅ `README.md`
-
-Aur **1 commit on `main`** bhi dikh raha hai. Matlab Git + GitHub wala part complete. 🚀
-
-## Next Step — README ko professional banana
-
-Ab tumhare project ko **portfolio/resume-ready** banate hain.
-
-VS Code mein `README.md` open karo aur **poora existing content replace** karke ye paste karo:
-
-````markdown
 # 🏠 House Price Prediction
 
 A Machine Learning web application that predicts house prices based on property features such as square footage, bedrooms, bathrooms, year built, lot size, garage size, and neighborhood quality.
@@ -219,6 +196,4 @@ git commit -m "Improve project README"
 git push
 ```
 
-Phir GitHub refresh karna.
 
-**Iske baad tumhara project GitHub par kaafi proper portfolio-project format mein ho jayega.**
